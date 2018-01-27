@@ -201,4 +201,4 @@ async def test_cooldown(ctx,nom):
             break
     return test
                 
-client.run(os.environ.get('TOKEN')
+client.run(os.environ.get('BOT_TOKEN')
