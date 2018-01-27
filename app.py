@@ -200,4 +200,4 @@ async def test_cooldown(ctx,nom):
             break
     return test
                 
-client.run(os.environ.get('Mzk3MDE1NDc2MjA4NjY0NTc5.DSp1HA.uzMjC5itib65fYEpVKh4ooOXsp4')
+client.run('Mzk3MDE1NDc2MjA4NjY0NTc5.DSp1HA.uzMjC5itib65fYEpVKh4ooOXsp4')
