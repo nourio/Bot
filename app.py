@@ -1,7 +1,6 @@
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
-import os
 from random import randint
 from time import sleep,time
 
@@ -201,4 +200,4 @@ async def test_cooldown(ctx,nom):
             break
     return test
                 
-client.run(os.environ.get('BOT_TOKEN')
+client.run(os.environ.get('Mzk3MDE1NDc2MjA4NjY0NTc5.DSp1HA.uzMjC5itib65fYEpVKh4ooOXsp4')
