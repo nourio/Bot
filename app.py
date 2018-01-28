@@ -126,8 +126,7 @@ async def punir(ctx,member: discord.Member,time):
     global cec
     if cec == False:
         cec = True
-        role_names = [role.name for role in ctx.message.author.roles]
-        if test_role():
+        if test_role(ctx.message.author.roles):
             channel = ctx.message.server.afk_channel
             for i in range(0,int(time)):
                 await client.move_member(member,channel)
@@ -143,8 +142,7 @@ async def bdsm(ctx,member: discord.Member,time):
     global cec
     if cec == False:
         cec = True
-        role_names = [role.name for role in ctx.message.author.roles]
-        if test_role():
+        if test_role(ctx.message.author.roles):
             channel = ctx.message.server.afk_channel
             for i in range(0,int(time)):
                 await client.move_member(member,channel)
