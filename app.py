@@ -88,7 +88,7 @@ async def roulette(ctx,chiffre,member: discord.Member =None):
                 member = None
                 role_names = role_namesuser
         chiffre = int(chiffre)
-        if(1<chiffre)&(chiffre<7):
+        if(0<chiffre)&(chiffre<7):
             val = randint(1,6)
             if chiffre == val:
                 await client.send_message(ctx.message.channel,'Tu as gagné')
@@ -107,7 +107,7 @@ async def roulette(ctx,chiffre,member: discord.Member =None):
 @client.command(pass_context=True)
 async def loto(ctx,chiffre):
     chiffre = int(chiffre)
-    if(1<chiffre)&(chiffre<501):
+    if(0<chiffre)&(chiffre<501):
         if await test_cooldown(ctx,str(ctx.message.author)):
             val = randint(1,500)
             if chiffre == val:
