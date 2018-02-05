@@ -185,7 +185,6 @@ async def aide(ctx):
 @client.command(pass_context=True)
 async def config_roulette(ctx):
     global allow_roulette
-    print(await test_role(ctx.message.author))
     if await test_role(ctx.message.author):
         if allow_roulette == True:
             allow_roulette = False
