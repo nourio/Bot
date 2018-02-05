@@ -145,7 +145,7 @@ async def bdsm(ctx,member: discord.Member,time):
     global cec
     if cec == False:
         cec = True
-        if await test_role():
+        if await test_role(ctx.message.author):
             channel = ctx.message.server.afk_channel
             for i in range(0,int(time)):
                 await client.move_member(member,channel)
