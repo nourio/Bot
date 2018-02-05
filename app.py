@@ -7,7 +7,7 @@ from time import sleep,time
 Client = discord.Client()
 client = commands.Bot(command_prefix='!')
 cec = False
-allow_roulette = True
+allow_roulette = False
 cooldown = []
 
 @client.event
