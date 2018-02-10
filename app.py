@@ -1,4 +1,5 @@
 import discord
+import os
 from discord.ext.commands import Bot
 from discord.ext import commands
 from random import randint
