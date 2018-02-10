@@ -16,7 +16,7 @@ async def on_ready():
     print("Bot Ready")
     print(client.user.name)
     print(client.user.id)
-    print(os.environ['BOT_ID']))
+    print(os.environ['BOT_ID'])
     print(type(os.environ['BOT_ID']))
 
 @client.event
