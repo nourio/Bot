@@ -1,0 +1,8 @@
+# Install dependencies
+RUN apk update \
+&& apk add --no-cache \
+  ca-certificates \
+  ffmpeg \
+  opus \
+  python3 \
+\
